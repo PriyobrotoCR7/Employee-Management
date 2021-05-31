@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class EmployeeService {
 
-  private baseUrl = 'http://localhost:3000';
+  private baseUrl = 'http://dummyfb.herokuapp.com';
 
   constructor(private http: HttpClient) { }
 
